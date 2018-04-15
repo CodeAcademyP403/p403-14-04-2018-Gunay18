@@ -1,0 +1,35 @@
+* {box-sizing: border-box; margin:0px; padding: 0px;}
+
+.container{
+    display: flex;
+}
+.left, .right{
+    width: 50%;
+    background-color: #ccc;
+    margin-right: 20px;
+    float: left;
+}
+.outer{
+    width: 90px;
+    height: 150px;
+    border: 2px solid #555;
+    margin: 20px;
+    display: inline-block;
+    line-height: 150px;
+    text-align: center;
+    position: relative;
+}
+.card{
+    background-color: #2663B4;
+    color: white;
+    border-radius: 0;
+    box-shadow: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.dragging{
+    background-color: #5B8ED1;
+}
